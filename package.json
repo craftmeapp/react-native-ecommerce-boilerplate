@@ -1,0 +1,39 @@
+{
+  "name": "td-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "eslint": "^4.8.0",
+    "jest-expo": "^21.0.2",
+    "react-native-scripts": "^1.5.0",
+    "react-test-renderer": "^16.0.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js",
+    "lint": "eslint"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "apisauce": "^0.14.1",
+    "eslint-config-craftmeapp-native": "^1.0.0",
+    "expo": "^21.0.2",
+    "ramda": "^0.24.1",
+    "react": "16.0.0-beta.5",
+    "react-native": "0.49.1",
+    "react-navigation": "^1.0.0-beta.13",
+    "redux": "^3.6.0",
+    "redux-saga": "^0.15.6",
+    "reduxsauce": "^0.7.0",
+    "seamless-immutable": "^7.1.2",
+    "styled-components": "^2.2.1"
+  }
+}
